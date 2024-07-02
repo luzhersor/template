@@ -1,0 +1,5 @@
+user\service\IUserService.class
+org\acme\GreetingResource.class
+user\model\User.class
+user\controller\UserController.class
+user\service\UserService.class
