@@ -1,0 +1,4 @@
+projectKey=archetype-quarkus
+projectName='archetype-quarkus
+host.url=http://localhost:9000 \
+token=sqp_28bc20fde375e4d75ffb7513ff355b93a82fec58
