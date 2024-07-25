@@ -1,17 +1,34 @@
 package user.model;
-
 import jakarta.persistence.*;
 
+
+/**
+ * Entidad que representa un usuario en el sistema.
+ */
 @Table(name = "Users")
 @Entity
 public class User {
 
+    /**
+     * Identificador único del usuario.
+     */
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    /**
+     * Nombre del usuario
+     */
     private String nombre;
+
+    /**
+     * Correo electrónico del usuario
+     */
     private String email;
+
+    /**
+     * Contraseña del usuario
+     */
     private String password;
 
 
